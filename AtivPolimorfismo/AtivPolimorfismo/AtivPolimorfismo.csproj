@@ -44,6 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Atividade1\Colaborador.cs" />
+    <Compile Include="Atividade1\Coordenador.cs" />
+    <Compile Include="Atividade1\Diretor.cs" />
+    <Compile Include="Atividade1\Imposto.cs" />
+    <Compile Include="Atividade1\Professor.cs" />
+    <Compile Include="Atividade2\Conta.cs" />
+    <Compile Include="Atividade2\Corrente.cs" />
+    <Compile Include="Atividade2\Poupanca.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
