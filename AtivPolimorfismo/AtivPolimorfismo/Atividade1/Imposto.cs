@@ -11,7 +11,7 @@ namespace AtivPolimorfismo.Atividade1
         public virtual void CalcularSalario(double salario)
         {
             double result = salario * 0.14;
-            Console.WriteLine("o desconto do salario padrão do INSS é de: " + result);
+            Console.WriteLine("o desconto do salario padrão de imposto do INSS é de: " + result);
         }
 
         public virtual void CalcularIRRF(double irrf)

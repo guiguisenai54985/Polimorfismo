@@ -12,37 +12,46 @@ namespace AtivPolimorfismo
     {
         static void Main(string[] args)
         {
-            //Imposto imposto = new Imposto();
-            //imposto.CalcularSalario(2500);
-            //imposto.CalcularIRRF(2500);
-            //Console.WriteLine();
+            //Exercicio 1
+            Imposto imposto = new Imposto();
+            imposto.CalcularSalario(2900);
+            imposto.CalcularIRRF(2500);
+            Console.WriteLine();
 
-            //Colaborador colaborador = new Colaborador();
-            //colaborador.CalcularSalarioProf(2500);
-            //colaborador.CalcularIRRF(2500);
-            //Console.WriteLine();
+            Colaborador colaborador = new Colaborador();
+            colaborador.CalcularSalario(2600);
+            colaborador.CalcularIRRF(2300);
+            Console.WriteLine();
 
-            //colaborador.CalcularSalarioCoor(3000);
-            //colaborador.CalcularIRRF(3000);
-            //Console.WriteLine();
+            Coordenador coordenador = new Coordenador();
+            coordenador.CalcularSalario(3000);
+            coordenador.CalcularIRRF(3000);
+            Console.WriteLine();
 
-            //colaborador.CalcularSalarioDir(2800);
-            //colaborador.CalcularIRRF(3000);
+            Diretor diretor = new Diretor();
+            diretor.CalcularSalario(4200);
+            diretor.CalcularIRRF(3500);
+            Console.WriteLine();
+
+            Professor professor = new Professor();
+            professor.CalcularSalario(3000);
+            professor.CalcularIRRF(4000);
+
 
 
             //Exercicio 2
-            Corrente corrente = new Corrente();
-            corrente.agencia = "Itau";
-            corrente.conta = "corrente";
-            corrente.nometitular = "julia";
-            corrente.CalcularImposto(3500);
-            Console.WriteLine();
+            //Corrente corrente = new Corrente();
+            //corrente.agencia = "Itau";
+            //corrente.conta = "corrente";
+            //corrente.nometitular = "julia";
+            //corrente.CalcularImposto(3500);
+            //Console.WriteLine();
 
-            Poupanca poupanca = new Poupanca();
-            poupanca.agencia = "Santander";
-            poupanca.conta = "poupança";
-            poupanca.nometitular = "igor";
-            poupanca.CalcularImposto(4500);
+            //Poupanca poupanca = new Poupanca();
+            //poupanca.agencia = "Santander";
+            //poupanca.conta = "poupança";
+            //poupanca.nometitular = "igor";
+            //poupanca.CalcularImposto(4500);
 
 
 

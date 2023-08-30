@@ -8,10 +8,10 @@ namespace AtivPolimorfismo.Atividade1
 {
     class Professor : Colaborador
     {
-        public virtual void CalcularSalario2(double salario)
+        public override void CalcularSalario(double salario)
         {
             double result = salario * 0.18;
-            Console.WriteLine("o desconto do salario padrão do INSS é de: " + result);
+            Console.WriteLine("o desconto do salario padrão do INSS de professor é: " + result);
         }
     }
 }

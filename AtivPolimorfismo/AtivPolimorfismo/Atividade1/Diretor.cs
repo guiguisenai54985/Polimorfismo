@@ -8,7 +8,11 @@ namespace AtivPolimorfismo.Atividade1
 {
     class Diretor:Colaborador
     {
-
+        public override void CalcularSalario(double salario)
+        {
+            double result = salario * 0.23;
+            Console.WriteLine("o desconto do salario do diretor é de: " + result);
+        }
 
     }
 }
