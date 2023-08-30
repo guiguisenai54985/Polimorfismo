@@ -1,5 +1,6 @@
 ﻿using AtivPolimorfismo.Atividade1;
 using AtivPolimorfismo.Atividade2;
+using AtivPolimorfismo.Atividade3;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -44,6 +45,36 @@ namespace AtivPolimorfismo
             poupanca.nometitular = "igor";
             poupanca.CalcularImposto(4500);
 
+            //Exercicio 3
+            Veiculo veiculo = new Veiculo();
+            veiculo.placa = "fbyf9g5";
+            veiculo.cor = "branca";
+            veiculo.modelo = "camaro";
+            veiculo.CalcularValorCombustivel();
+            veiculo.CalcularTotal();
+
+            Moto moto = new Moto();
+            moto.cor = "Preto";
+            moto.modelo = "ninja";
+            moto.placa = "rtvbnm8";
+            moto.CalcularValorCombustivel();
+            moto.CalcularTotal();
+
+            Taxi taxi = new Taxi();
+            taxi.modelo = "santana";
+            taxi.placa = "dcfvgb9";
+            taxi.cor = "amarelho";
+            taxi.CalcularValorCombustivel();
+            taxi.CalcularTotal();
+
+            Uber uber = new Uber();
+            Console.WriteLine("digite o tipo de uber você gostaria de viajar: 1-UberXShare" + 1 + ", 2-UberGreen" + 2 + "ou 3-UberReserve" + 3);
+            double tipoveiculo = Convert.ToDouble(Console.ReadLine());
+            uber.CalcularTotal();
+            uber.EscolherVeiculo(tipoveiculo);
+            uber.placa = "hfjgjr45";
+            uber.cor = "verde";
+            uber.modelo = "corola";
 
 
 
